@@ -1,0 +1,34 @@
+{
+    "logs": [
+        {
+            "outputFile": "C:\\Users\\Ertheia\\Desktop\\Recovery Dev CTA\\5CTA\\android-support-v7-appcompat\\build\\intermediates\\incremental\\mergeDebugAndroidTestResources\\merged.dir\\values-gl-rES\\values-gl-rES.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\Ertheia\\Desktop\\Recovery Dev CTA\\5CTA\\android-support-v7-appcompat\\build\\intermediates\\bundles\\debug\\res\\values-gl-rES\\values-gl-rES.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,167,275,398,510,618,703,805,931,1038,1147,1246,1354,1457,1564",
+                        "endColumns": "111,107,122,111,107,84,101,125,106,108,98,107,102,106,121",
+                        "endOffsets": "162,270,393,505,613,698,800,926,1033,1142,1241,1349,1452,1559,1681"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "C:\\Users\\Ertheia\\Desktop\\Recovery Dev CTA\\5CTA\\android-support-v7-appcompat\\build\\intermediates\\res\\merged\\androidTest\\debug\\values-gl-rES\\values-gl-rES.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\Ertheia\\Desktop\\Recovery Dev CTA\\5CTA\\android-support-v7-appcompat\\build\\intermediates\\bundles\\debug\\res\\values-gl-rES\\values-gl-rES.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,167,275,398,510,618,703,805,931,1038,1147,1246,1354,1457,1564",
+                        "endColumns": "111,107,122,111,107,84,101,125,106,108,98,107,102,106,121",
+                        "endOffsets": "162,270,393,505,613,698,800,926,1033,1142,1241,1349,1452,1559,1681"
+                    }
+                }
+            ]
+        }
+    ]
+}

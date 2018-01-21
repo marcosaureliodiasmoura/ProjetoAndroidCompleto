@@ -1,0 +1,34 @@
+{
+    "logs": [
+        {
+            "outputFile": "C:\\Users\\Ertheia\\Desktop\\Recovery Dev CTA\\5CTA\\android-support-v7-appcompat\\build\\intermediates\\incremental\\mergeDebugAndroidTestResources\\merged.dir\\values-sl\\values-sl.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\Ertheia\\Desktop\\Recovery Dev CTA\\5CTA\\android-support-v7-appcompat\\build\\intermediates\\bundles\\debug\\res\\values-sl\\values-sl.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,162,270,393,500,608,695,798,917,1025,1134,1234,1347,1454,1558",
+                        "endColumns": "106,107,122,106,107,86,102,118,107,108,99,112,106,103,116",
+                        "endOffsets": "157,265,388,495,603,690,793,912,1020,1129,1229,1342,1449,1553,1670"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "C:\\Users\\Ertheia\\Desktop\\Recovery Dev CTA\\5CTA\\android-support-v7-appcompat\\build\\intermediates\\res\\merged\\androidTest\\debug\\values-sl\\values-sl.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\Ertheia\\Desktop\\Recovery Dev CTA\\5CTA\\android-support-v7-appcompat\\build\\intermediates\\bundles\\debug\\res\\values-sl\\values-sl.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,162,270,393,500,608,695,798,917,1025,1134,1234,1347,1454,1558",
+                        "endColumns": "106,107,122,106,107,86,102,118,107,108,99,112,106,103,116",
+                        "endOffsets": "157,265,388,495,603,690,793,912,1020,1129,1229,1342,1449,1553,1670"
+                    }
+                }
+            ]
+        }
+    ]
+}

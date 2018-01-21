@@ -1,0 +1,65 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.projetodoertheia.a5cta.Cursos.OpenMatriculaActivity"
+    android:background="@drawable/i35">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="ATENÇÃO!"
+        android:id="@+id/txtAtencaoo"
+        android:textSize="50dp"
+        android:textColor="#f9f9f5"
+        android:typeface="serif"
+        android:textStyle="normal|bold"
+        android:layout_above="@+id/txt0AcessoRestrito"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Para prosseguir com suas atividades, é necessário"
+        android:id="@+id/txt0texto"
+        android:textColor="#ecffffff"
+        android:layout_above="@+id/txt0texto2"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="estar conectado a Rede de dados de sua OM"
+        android:id="@+id/txt0texto2"
+        android:textColor="#ecffffff"
+        android:layout_marginBottom="46dp"
+        android:layout_above="@+id/btn_Continuar_Matricula"
+        android:layout_alignStart="@+id/txtAtencaoo" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Acesso Restrito"
+        android:id="@+id/txt0AcessoRestrito"
+        android:typeface="serif"
+        android:textStyle="normal|bold"
+        android:layout_above="@+id/txt0texto"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="138dp" />
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="Continuar"
+        android:id="@+id/btn_Continuar_Matricula"
+        android:layout_marginBottom="51dp"
+        android:clickable="true"
+        android:onClick="onClick"
+        android:background="#0d138b"
+        android:elevation="4dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+</RelativeLayout>

@@ -1,0 +1,17 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\Ertheia\Desktop\Recovery Dev CTA\5CTA\android-support-v7-appcompat\AndroidManifest.xml:16:1-20:12
+INJECTED from C:\Users\Ertheia\Desktop\Recovery Dev CTA\5CTA\android-support-v7-appcompat\AndroidManifest.xml:16:1-20:12
+INJECTED from C:\Users\Ertheia\Desktop\Recovery Dev CTA\5CTA\android-support-v7-appcompat\AndroidManifest.xml:16:1-20:12
+	package
+		ADDED from C:\Users\Ertheia\Desktop\Recovery Dev CTA\5CTA\android-support-v7-appcompat\AndroidManifest.xml:17:11-49
+		INJECTED from C:\Users\Ertheia\Desktop\Recovery Dev CTA\5CTA\android-support-v7-appcompat\AndroidManifest.xml
+		INJECTED from C:\Users\Ertheia\Desktop\Recovery Dev CTA\5CTA\android-support-v7-appcompat\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\Ertheia\Desktop\Recovery Dev CTA\5CTA\android-support-v7-appcompat\AndroidManifest.xml:16:11-69
+uses-sdk
+ADDED from C:\Users\Ertheia\Desktop\Recovery Dev CTA\5CTA\android-support-v7-appcompat\AndroidManifest.xml:18:5-42
+	android:minSdkVersion
+		ADDED from C:\Users\Ertheia\Desktop\Recovery Dev CTA\5CTA\android-support-v7-appcompat\AndroidManifest.xml:18:15-40
+application
+ADDED from C:\Users\Ertheia\Desktop\Recovery Dev CTA\5CTA\android-support-v7-appcompat\AndroidManifest.xml:19:5-20

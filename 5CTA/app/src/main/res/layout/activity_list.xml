@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+    <!--<include layout="@layout/toolbar"-->
+        <!--android:id="@+id/toolbarNoticias"-->
+        <!--/>-->
+
+    <android.support.v7.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="?actionBarSize"
+        android:background="?attr/colorPrimary"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        app:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+        app:titleTextAppearance="@style/ToolbarTextAppearance.Title"
+        style="@style/MyToolbarContatos"
+        android:id="@+id/toolbarContatos">
+
+
+    </android.support.v7.widget.Toolbar>
+
+
+    <!--app:subtitleTextAppearance="@style/Tool22barTextAppearance.Subtitle"-->
+
+
+        <!--<ImageView-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="56dp"-->
+            <!--android:id="@+id/imageView6"-->
+            <!--android:layout_gravity="center_horizontal|top"-->
+            <!--android:scaleType="centerCrop"-->
+            <!--android:src="@drawable/tema01" />-->
+
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="511dp"
+        android:background="#fff"
+        android:layout_gravity="center_horizontal|bottom">
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/Recycler_Lista"
+            android:layout_height="match_parent"
+            android:layout_width="match_parent"
+            android:layout_gravity="center_horizontal|bottom"
+             />
+    </LinearLayout>
+
+</FrameLayout>
+
+

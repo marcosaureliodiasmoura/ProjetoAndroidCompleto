@@ -1,0 +1,34 @@
+{
+    "logs": [
+        {
+            "outputFile": "C:\\Users\\Ertheia\\Desktop\\Recovery Dev CTA\\5CTA\\android-support-v7-appcompat\\build\\intermediates\\incremental\\mergeDebugAndroidTestResources\\merged.dir\\values-mk-rMK\\values-mk-rMK.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\Ertheia\\Desktop\\Recovery Dev CTA\\5CTA\\android-support-v7-appcompat\\build\\intermediates\\bundles\\debug\\res\\values-mk-rMK\\values-mk-rMK.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,163,286,390,498,584,689,808,914,1021,1122,1229,1340",
+                        "endColumns": "107,122,103,107,85,104,118,105,106,100,106,110,103",
+                        "endOffsets": "158,281,385,493,579,684,803,909,1016,1117,1224,1335,1439"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "C:\\Users\\Ertheia\\Desktop\\Recovery Dev CTA\\5CTA\\android-support-v7-appcompat\\build\\intermediates\\res\\merged\\androidTest\\debug\\values-mk-rMK\\values-mk-rMK.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\Ertheia\\Desktop\\Recovery Dev CTA\\5CTA\\android-support-v7-appcompat\\build\\intermediates\\bundles\\debug\\res\\values-mk-rMK\\values-mk-rMK.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,163,286,390,498,584,689,808,914,1021,1122,1229,1340",
+                        "endColumns": "107,122,103,107,85,104,118,105,106,100,106,110,103",
+                        "endOffsets": "158,281,385,493,579,684,803,909,1016,1117,1224,1335,1439"
+                    }
+                }
+            ]
+        }
+    ]
+}

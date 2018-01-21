@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:layout_marginLeft="0dp"
+    android:layout_marginRight="0dp"
+    android:layout_marginTop="4dp"
+    android:layout_marginBottom="4dp"
+    card_view:cardElevation="4dp"
+    android:layout_height="320dp"
+    android:id="@+id/Recycler_CardView"
+    card_view:cardCornerRadius="4dp"
+    android:background="#ffffff">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#ffffff">
+
+
+        <ImageView
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/logo5cta" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="10dp"
+            android:text="5° Centro de Telemática De Área"
+            android:textColor="@color/cardview_dark_background" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="70dp"
+            android:layout_marginTop="30dp"
+            android:text="Tecnologia da Informação"
+            android:textColor="@color/cardview_dark_background"
+            android:textSize="10dp" />
+
+
+        <FrameLayout
+            android:id="@+id/Recycler_RelativeLayout"
+            android:layout_width="match_parent"
+            android:layout_height="280dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true">
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="220dp"
+                android:layout_marginTop="60dp"
+                card_view:cardElevation="4dp">
+
+                <ImageView
+                    android:id="@+id/Recycler_Imagem"
+                    android:layout_width="match_parent"
+                    android:layout_height="220dp"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/carregando" />
+
+            </android.support.v7.widget.CardView>
+
+
+            <!--<Button-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="60dp"-->
+            <!--android:id="@+id/button23"-->
+            <!--android:background="#b0090808"-->
+            <!--android:layout_alignParentBottom="true"-->
+            <!--android:layout_alignParentStart="true"-->
+            <!--android:layout_alignParentEnd="true"-->
+            <!--android:layout_gravity="left|bottom" />-->
+
+
+        </FrameLayout>
+
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/Recycler_CardView2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/Recycler_RelativeLayout"
+            android:layout_marginTop="4dp"
+            card_view:cardBackgroundColor="@color/colorBackground"
+            card_view:cardElevation="4dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/Recycler_Titulo"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBaseline="@+id/button23"
+                    android:layout_alignBottom="@+id/button23"
+                    android:layout_alignParentStart="true"
+                    android:layout_gravity="left|bottom"
+                    android:layout_marginLeft="20dp"
+                    android:clickable="false"
+                    android:editable="false"
+                    android:elegantTextHeight="false"
+                    android:elevation="4dp"
+                    android:enabled="false"
+                    android:focusable="false"
+                    android:gravity="left|bottom"
+                    android:paddingRight="10dp"
+                    android:layout_marginTop="5dp"
+                    android:text="Titulo"
+                    android:textColor="@color/primaryText"
+                    android:textSize="10dp"
+                    android:typeface="serif" />
+
+                <TextView
+                    android:id="@+id/Recycler_Subtitulo"
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentEnd="true"
+
+                    android:layout_gravity="left|bottom"
+                    android:text="Subtitulo"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:visibility="invisible" />
+            </RelativeLayout>
+
+        </android.support.v7.widget.CardView>
+
+    </RelativeLayout>
+
+
+</android.support.v7.widget.CardView>

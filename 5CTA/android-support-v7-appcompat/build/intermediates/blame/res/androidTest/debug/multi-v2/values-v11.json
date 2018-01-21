@@ -1,0 +1,36 @@
+{
+    "logs": [
+        {
+            "outputFile": "C:\\Users\\Ertheia\\Desktop\\Recovery Dev CTA\\5CTA\\android-support-v7-appcompat\\build\\intermediates\\res\\merged\\androidTest\\debug\\values-v11\\values-v11.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\Ertheia\\Desktop\\Recovery Dev CTA\\5CTA\\android-support-v7-appcompat\\build\\intermediates\\bundles\\debug\\res\\values-v11\\values-v11.xml",
+                    "from": {
+                        "startLines": "2,8,14,20,26,32,38,44,50,56,62,63,64,65,167,169,171,176,225,274,324",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,474,899,1327,1753,2182,2607,3028,3463,3896,4343,4421,4513,4603,11338,11445,11574,11938,15578,19232,23011",
+                        "endLines": "7,13,19,25,31,37,43,49,55,61,62,63,64,166,168,170,175,224,273,323,373",
+                        "endColumns": "12,12,12,12,12,12,12,12,12,12,77,91,89,12,12,12,12,12,12,12,12",
+                        "endOffsets": "469,894,1322,1748,2177,2602,3023,3458,3891,4338,4416,4508,4598,11333,11440,11569,11933,15573,19227,23006,26799"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "C:\\Users\\Ertheia\\Desktop\\Recovery Dev CTA\\5CTA\\android-support-v7-appcompat\\build\\intermediates\\incremental\\mergeDebugAndroidTestResources\\merged.dir\\values-v11\\values-v11.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\Ertheia\\Desktop\\Recovery Dev CTA\\5CTA\\android-support-v7-appcompat\\build\\intermediates\\bundles\\debug\\res\\values-v11\\values-v11.xml",
+                    "from": {
+                        "startLines": "2,8,14,20,26,32,38,44,50,56,62,63,64,65,167,169,171,176,225,274,324",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,474,899,1327,1753,2182,2607,3028,3463,3896,4343,4421,4513,4603,11338,11445,11574,11938,15578,19232,23011",
+                        "endLines": "7,13,19,25,31,37,43,49,55,61,62,63,64,166,168,170,175,224,273,323,373",
+                        "endColumns": "12,12,12,12,12,12,12,12,12,12,77,91,89,12,12,12,12,12,12,12,12",
+                        "endOffsets": "469,894,1322,1748,2177,2602,3023,3458,3891,4338,4416,4508,4598,11333,11440,11569,11933,15573,19227,23006,26799"
+                    }
+                }
+            ]
+        }
+    ]
+}

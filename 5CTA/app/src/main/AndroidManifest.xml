@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.projetodoertheia.a5cta">
+
+    <!-- <uses-feature android:name="android.hardware.telephony" android:required="false"/> -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NOTIFICATION_POLICY" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.PROCESS_OUTGOING_CALLS" />
+
+    <!--
+         The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
+         Google Maps Android API v2, but you must specify either coarse or fine
+         location permissions for the 'MyLocation' functionality. 
+    -->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+    <intent-filter>
+        <action android:name="android.intent.action.VIEW" />
+
+        <category android:name="android.intent.category.DEFAULT" />
+        <category android:name="android.intent.category.BROWSABLE" />
+
+        <data
+            android:host="https://q3t62.app.goo.gl/"
+            android:scheme="https" />
+        <data
+            android:host="example.com"
+            android:scheme="https" />
+    </intent-filter>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo5cta"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <service android:name=".FirebaseMessaging.FirebaseMessaging">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+        <service android:name=".FirebaseMessaging.FirebaseInstacia">
+            <intent-filter>
+                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
+            </intent-filter>
+        </service>
+
+        <activity
+            android:name=".SplashActivity"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".NoticiasFirebase.NoticiasActivity"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
+            </intent-filter>
+        </activity>
+        <activity android:name=".Cursos.CursosActivity"></activity>
+        <activity android:name=".Cursos.EadActivity" />
+        <activity android:name=".Contatos.ui.ListActivity" />
+        <activity android:name=".Contatos.ui.Detail_Activity" />
+        <activity
+            android:name=".Cursos.MatriculaActivity"
+            android:label="@string/title_activity_matricula"
+            android:theme="@style/AppTheme" />
+
+        <uses-permission android:name="android.permission.CALL_PHONE" />
+
+        <activity android:name=".Cursos.CalendarioActivity" />
+        <activity android:name=".Cursos.Calendario.CalendarioActivity" />
+        <activity android:name=".RssNoticias.DetailsNoticias" />
+        <activity android:name=".RssNoticias.MainNoticiasActivity" />
+        <activity android:name=".Cursos.Calendario.FormularioMatricula" />
+        <activity android:name=".Firebase.FirebaseNoticias" />
+        <activity
+            android:name=".NoticiasFirebase.mRecycler.DetailActivityNoticias"
+            android:label="@string/title_activity_detail_activity_noticias"
+            android:theme="@style/AppTheme" />
+        <!--
+             The API key for Google Maps-based APIs is defined as a string resource.
+             (See the file "res/values/google_maps_api.xml").
+             Note that the API key is linked to the encryption key used to sign the APK.
+             You need a different API key for each encryption key, including the release key that is used to
+             sign the APK for publishing.
+             You can define the keys for the debug and release targets in src/debug/ and src/release/. 
+        -->
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_maps_key" />
+
+        <activity
+            android:name=".Outros.MapsActivity"
+            android:label="@string/title_activity_maps" />
+        <activity
+            android:name=".Outros.MainActivity"
+            android:label="@string/title_activity_main"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".Cursos.OpenMatriculaActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/title_activity_open_matricula"
+            android:theme="@style/FullscreenTheme" />
+        <activity android:name=".Outros.AbrirChamadoActivity" />
+        <activity
+            android:name=".Cursos.VideoAulas.Aula1Activity"
+            android:label="@string/title_activity_aula1"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".Outros.AplicativosActivity"
+            android:label="@string/title_activity_aplicativos"
+            android:theme="@style/AppTheme"></activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "59588979065",
+    "firebase_url": "https://cta-4f03b.firebaseio.com",
+    "project_id": "cta-4f03b",
+    "storage_bucket": "cta-4f03b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:59588979065:android:5a59955007140428",
+        "android_client_info": {
+          "package_name": "com.projetodoertheia.a5cta"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "59588979065-tk58cj31tb08fho7r1dhnkam0inlmfnv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB5GJLNJfeW4ZWhCErCFd_LUOd6HTb7W_s"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

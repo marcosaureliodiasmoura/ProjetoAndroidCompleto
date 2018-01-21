@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "1016719570601",
+    "firebase_url": "https://notificacao5cta.firebaseio.com",
+    "project_id": "notificacao5cta",
+    "storage_bucket": "notificacao5cta.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1016719570601:android:5a59955007140428",
+        "android_client_info": {
+          "package_name": "com.projetodoertheia.a5cta"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1016719570601-fe000ladisdd4h62nalsclqapt1145jk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyATXwbSwXuq_72iSbgT_Z-ano4dV92U-Xo"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

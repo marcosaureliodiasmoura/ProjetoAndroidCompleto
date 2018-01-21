@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+
+        <item android:id="@+id/nav_menu1"
+            android:checked="true"
+            android:icon="@drawable/ic_forward_white_24dp"
+            android:title="Inicio"/>
+
+        <item android:id="@+id/nav_menu2"
+            android:checked="true"
+            android:icon="@drawable/ic_forward_white_24dp"
+            android:title="Cursos e Estágios"/>
+
+        <item android:id="@+id/nav_menu3"
+            android:checked="true"
+            android:icon="@drawable/ic_forward_white_24dp"
+            android:title="Contatos do 5° CTA"
+
+            />
+
+        <item android:id="@+id/nav_menu4"
+            android:checked="true"
+            android:icon="@drawable/ic_forward_white_24dp"
+            android:title="Uniformes"/>
+
+        <!--<item android:id="@+id/nav_menu5"-->
+            <!--android:checked="true"-->
+            <!--android:icon="@drawable/ic_forward_white_24dp"-->
+            <!--android:title="Hinos e Canções" />-->
+
+        <item android:id="@+id/nav_menu6"
+            android:checked="true"
+            android:icon="@drawable/ic_forward_white_24dp"
+            android:title="Abrir Chamado"/>
+
+        <!--<item android:id="@+id/nav_menu7"-->
+            <!--android:checked="true"-->
+            <!--android:icon="@drawable/ic_forward_white_24dp"-->
+            <!--android:title="Clouding Mensagging"/>-->
+
+        <!--<item android:id="@+id/nav_menu8"-->
+            <!--android:checked="true"-->
+            <!--android:icon="@drawable/ic_forward_white_24dp"-->
+            <!--android:title="Aplicativos"/>-->
+
+
+    </group>
+
+
+
+</menu>

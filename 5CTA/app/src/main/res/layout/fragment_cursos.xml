@@ -1,0 +1,205 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    tools:context="com.projetodoertheia.a5cta.Cursos.CursosFragment">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="200dp"
+        android:id="@+id/imageViewtest"
+        android:layout_gravity="center_horizontal|top"
+
+        android:src="@drawable/logo5cta" />
+
+    <!--<include layout="@layout/toolbar"-->
+    <!--android:background="#30e73434"-->
+    <!--android:id="@+id/toolbarNoticias"-->
+    <!--/>-->
+
+
+    <!--<android.support.v7.widget.Toolbar-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="56dp"-->
+        <!--android:background="#30e73434"></android.support.v7.widget.Toolbar>-->
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/scrollView"
+        android:paddingTop="200dp"
+        android:clipToPadding="false"
+        android:layout_gravity="center"
+        android:fillViewport="false">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#FFFFFF"
+            android:padding="10dp">
+
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="200dp">
+
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:src="@drawable/i24"
+                        android:scaleType="centerCrop" />
+
+
+                    <Button
+
+                        android:layout_width="match_parent"
+                        android:layout_height="200dp"
+                        android:text="Domine o Conhecimento do Exercito Brasileiro"
+                        android:id="@+id/btn_introducao"
+                        android:background="#3b0a0a0a" />
+
+
+                </FrameLayout>
+
+
+
+
+
+            </android.support.v7.widget.CardView>
+
+
+
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Calendário dos cursos 2018"
+                android:id="@+id/btn_calendario"
+                android:layout_margin="10dp"
+                android:background="#ea3274"
+                style="@style/ToolbarTextAppearance"
+                android:elevation="4dp" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Ensino a Distancia"
+                android:id="@+id/btn_ead"
+                android:layout_margin="10dp"
+                android:background="#ea3274"
+                style="@style/ToolbarTextAppearance"
+                android:elevation="4dp" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Ficha de Inscrição"
+                android:id="@+id/btn_matricula"
+                android:background="#ea3274"
+                android:layout_margin="10dp"
+                style="@style/ToolbarTextAppearance"
+                android:elevation="4dp" />
+
+            <!--<HorizontalScrollView-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:id="@+id/horizontalScrollView" >-->
+
+            <!--<LinearLayout-->
+            <!--android:orientation="horizontal"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="match_parent">-->
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Video Aulas para Aprendizagem"
+                android:id="@+id/textView6"
+                android:textColor="#0c0c0c"
+                style="@style/ToolbarTextAppearance"
+                android:layout_margin="20dp" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Video Aula 1: Criando Conta EAD "
+                style="@style/ToolbarTextAppearance"
+                android:id="@+id/button17"
+                android:background="@color/colorPrimary"
+                android:layout_margin="10dp"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/ToolbarTextAppearance"
+                android:text="Video aula 2: Criando Ficha de Inscrição"
+                android:id="@+id/button18"
+                android:background="@color/colorPrimary"
+                android:layout_margin="10dp"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/ToolbarTextAppearance"
+                android:text="Video Aula 3: Finalizando Conta"
+                android:id="@+id/button19"
+                android:background="@color/colorPrimary"
+                android:layout_margin="10dp"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/ToolbarTextAppearance"
+                android:text="Video Aula 4: Acessando Sistema Moodle"
+                android:id="@+id/button20"
+                android:background="@color/colorPrimary"
+                android:layout_margin="10dp"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/ToolbarTextAppearance"
+                android:text="Video Aula 5: Dados do Perfil"
+                android:id="@+id/button21"
+                android:background="@color/colorPrimary"
+                android:layout_margin="10dp"/>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/ToolbarTextAppearance"
+                android:text="Video Aula 6: Realizando a Prova"
+                android:id="@+id/button22"
+                android:background="@color/colorPrimary"
+                android:layout_margin="10dp"/>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/ToolbarTextAppearance"
+                android:text="Video Aula 7: Esqueci minha Senha"
+                android:id="@+id/button23"
+                android:background="@color/colorPrimary"
+                android:layout_margin="10dp"/>
+            <Button
+                android:layout_width="match_parent"
+                style="@style/ToolbarTextAppearance"
+                android:layout_height="wrap_content"
+                android:text="Video Aula 8: Finalizando - Pesquisa de Opnião"
+                android:id="@+id/button24"
+                android:background="@color/colorPrimary"
+                android:layout_margin="10dp"/>
+
+        </LinearLayout>
+        <!--</HorizontalScrollView>-->
+        <!--</LinearLayout>-->
+    </ScrollView>
+
+
+</FrameLayout>

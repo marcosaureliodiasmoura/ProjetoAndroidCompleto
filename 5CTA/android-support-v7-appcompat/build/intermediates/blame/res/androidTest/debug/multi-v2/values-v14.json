@@ -1,0 +1,36 @@
+{
+    "logs": [
+        {
+            "outputFile": "C:\\Users\\Ertheia\\Desktop\\Recovery Dev CTA\\5CTA\\android-support-v7-appcompat\\build\\intermediates\\res\\merged\\androidTest\\debug\\values-v14\\values-v14.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\Ertheia\\Desktop\\Recovery Dev CTA\\5CTA\\android-support-v7-appcompat\\build\\intermediates\\bundles\\debug\\res\\values-v14\\values-v14.xml",
+                    "from": {
+                        "startLines": "2,9,16,23,30,31,32,33",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,569,1097,1623,2163,2242,2335,2426",
+                        "endLines": "8,15,22,29,30,31,32,33",
+                        "endColumns": "12,12,12,12,78,92,90,104",
+                        "endOffsets": "564,1092,1618,2158,2237,2330,2421,2526"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "C:\\Users\\Ertheia\\Desktop\\Recovery Dev CTA\\5CTA\\android-support-v7-appcompat\\build\\intermediates\\incremental\\mergeDebugAndroidTestResources\\merged.dir\\values-v14\\values-v14.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\Ertheia\\Desktop\\Recovery Dev CTA\\5CTA\\android-support-v7-appcompat\\build\\intermediates\\bundles\\debug\\res\\values-v14\\values-v14.xml",
+                    "from": {
+                        "startLines": "2,9,16,23,30,31,32,33",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,569,1097,1623,2163,2242,2335,2426",
+                        "endLines": "8,15,22,29,30,31,32,33",
+                        "endColumns": "12,12,12,12,78,92,90,104",
+                        "endOffsets": "564,1092,1618,2158,2237,2330,2421,2526"
+                    }
+                }
+            ]
+        }
+    ]
+}
